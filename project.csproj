@@ -1,0 +1,156 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{1BA3F40D-7C7B-4929-BB5A-3E81FD5E0951}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>project</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\ProjectDemo\v15\.suo" />
+    <None Include=".vs\ProjectDemo\v15\Server\sqlite3\db.lock" />
+    <None Include=".vs\ProjectDemo\v15\Server\sqlite3\storage.ide" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="ProjectDemo\App.config" />
+    <None Include="ProjectDemo\bin\Debug\ProjectDemo.exe.config" />
+    <None Include="ProjectDemo\bin\Debug\ProjectDemo.vshost.exe.config" />
+    <None Include="ProjectDemo\bin\Debug\ProjectDemo.vshost.exe.manifest" />
+    <None Include="ProjectDemo\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="ProjectDemo\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="ProjectDemo\obj\Debug\ProjectDemo.csproj.CoreCompileInputs.cache" />
+    <None Include="ProjectDemo\obj\Debug\ProjectDemo.csproj.GenerateResource.cache" />
+    <None Include="ProjectDemo\obj\Debug\ProjectDemo.csprojAssemblyReference.cache" />
+    <None Include="ProjectDemo\obj\Debug\ProjectDemo.csprojResolveAssemblyReference.cache" />
+    <None Include="ProjectDemo\obj\Release\ProjectDemo.csproj.CoreCompileInputs.cache" />
+    <None Include="ProjectDemo\Properties\Settings.settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProjectDemo\Class1.cs" />
+    <Compile Include="ProjectDemo\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectDemo\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDemo\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectDemo\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDemo\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectDemo\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDemo\Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectDemo\Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDemo\Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectDemo\Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDemo\Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectDemo\Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDemo\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="ProjectDemo\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="ProjectDemo\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="ProjectDemo\Program.cs" />
+    <Compile Include="ProjectDemo\Properties\AssemblyInfo.cs" />
+    <Compile Include="ProjectDemo\Properties\Resources.Designer.cs" />
+    <Compile Include="ProjectDemo\Properties\Settings.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectDemo\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectDemo\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectDemo\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectDemo\Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectDemo\Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectDemo\Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectDemo\obj\Debug\ProjectDemo.Form1.resources" />
+    <EmbeddedResource Include="ProjectDemo\obj\Debug\ProjectDemo.Form2.resources" />
+    <EmbeddedResource Include="ProjectDemo\obj\Debug\ProjectDemo.Form3.resources" />
+    <EmbeddedResource Include="ProjectDemo\obj\Debug\ProjectDemo.Form4.resources" />
+    <EmbeddedResource Include="ProjectDemo\obj\Debug\ProjectDemo.Form5.resources" />
+    <EmbeddedResource Include="ProjectDemo\obj\Debug\ProjectDemo.Properties.Resources.resources" />
+    <EmbeddedResource Include="ProjectDemo\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ProjectDemo\bin\Debug\ProjectDemo.exe" />
+    <Content Include="ProjectDemo\bin\Debug\ProjectDemo.pdb" />
+    <Content Include="ProjectDemo\bin\Debug\ProjectDemo.vshost.exe" />
+    <Content Include="ProjectDemo\obj\Debug\ProjectDemo.csproj.FileListAbsolute.txt" />
+    <Content Include="ProjectDemo\obj\Debug\ProjectDemo.exe" />
+    <Content Include="ProjectDemo\obj\Debug\ProjectDemo.pdb" />
+    <Content Include="ProjectDemo\ProjectDemo.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\project\v15\" />
+    <Folder Include="ProjectDemo\bin\Release\" />
+    <Folder Include="ProjectDemo\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
